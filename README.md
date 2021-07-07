@@ -4,6 +4,10 @@ Movie Viewer is a search website to look up your favorite movies and save a list
 
 ## How to start
 
+### `npm install`
+
+Installs dependencies to your project.
+
 ### `npm start`
 
 Runs the app in the development mode.\

@@ -5,7 +5,7 @@
   width: 19%;
   display: inline-block;
   border-radius: 10px;
-  height: 314px;
+  min-height: 314px;
   vertical-align: top;
 }
 
