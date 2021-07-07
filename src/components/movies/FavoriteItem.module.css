@@ -1,0 +1,65 @@
+.card {
+  margin-top: 25px;
+  margin-right: 1%;
+  background-color: #dedede;
+  width: 19%;
+  display: inline-block;
+  border-radius: 10px;
+  height: 314px;
+  vertical-align: top;
+}
+
+.item {
+  margin: 1rem 0;
+}
+
+.image {
+  width: 65%;
+  display: inline-block;
+  aspect-ratio: auto 281/422;
+  overflow: hidden;
+  margin-top: 10px;
+  margin-left: 10px;
+  border-radius: 6px;
+}
+
+.image img {
+  height: 100%;
+  aspect-ratio: auto 281/422;
+  overflow: hidden;
+}
+
+.content {
+  grid-row-start: 2;
+  grid-row-end: 3;
+  text-align: left;
+  padding: 1rem;
+}
+
+.content h3 {
+  font-size: 1.25rem;
+  color: #2c292b;
+  margin: 0px;
+}
+
+.actions {
+  vertical-align: top;
+  text-align: right;
+  margin-top: 10px;
+  display: inline-block;
+  width: 25%;
+}
+
+.actions button {
+  margin: 0px;
+  border: transparent;
+  background: #dedede;
+  overflow: hidden;
+}
+
+.actions img {
+  margin: 0px;
+  height: 30px;
+  overflow: hidden;
+  background-color: #dedede;
+}

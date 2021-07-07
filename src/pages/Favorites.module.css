@@ -1,0 +1,21 @@
+.header {
+  margin-bottom: 10px;
+  border-bottom: black 2px solid;
+}
+
+.header h2 {
+  font-size: 24px;
+  color: #2c292b;
+}
+
+.alignLeft {
+  width: 50%;
+  text-align: left;
+  display: inline-block;
+}
+
+.alignRight {
+  width: 50%;
+  text-align: right;
+  display: inline-block;
+}

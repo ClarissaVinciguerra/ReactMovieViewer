@@ -1,0 +1,40 @@
+.header {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #2d2d2d;
+  padding: 0 5%;
+}
+
+.logo {
+  font-size: 2rem;
+  color: white;
+  font-weight: bold;
+}
+
+.header li {
+  margin-left: 1rem;
+  display: inline-block;
+}
+
+.header a {
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: #0088ff;
+}
+
+.header a:hover,
+.header a:active,
+.header a.active {
+  color: white;
+}
+
+.badge {
+  color: #0088ff;
+  background-color: whitesmoke;
+  border-radius: 12px;
+  padding: 0 0.5rem;
+  margin-left: 0.5rem;
+}
